@@ -11,6 +11,7 @@
 		31D274A12BC039A300AFA75C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D274A02BC039A300AFA75C /* ContentView.swift */; };
 		31D274A32BC039A600AFA75C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31D274A22BC039A600AFA75C /* Assets.xcassets */; };
 		31D274A62BC039A600AFA75C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31D274A52BC039A600AFA75C /* Preview Assets.xcassets */; };
+		31D274AD2BC039CC00AFA75C /* BreatheAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D274AC2BC039CC00AFA75C /* BreatheAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		31D274A02BC039A300AFA75C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		31D274A22BC039A600AFA75C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31D274A52BC039A600AFA75C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		31D274AC2BC039CC00AFA75C /* BreatheAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreatheAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				31D2749E2BC039A300AFA75C /* MeditationAppApp.swift */,
 				31D274A02BC039A300AFA75C /* ContentView.swift */,
+				31D274AC2BC039CC00AFA75C /* BreatheAnimation.swift */,
 				31D274A22BC039A600AFA75C /* Assets.xcassets */,
 				31D274A42BC039A600AFA75C /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31D274AD2BC039CC00AFA75C /* BreatheAnimation.swift in Sources */,
 				31D274A12BC039A300AFA75C /* ContentView.swift in Sources */,
 				31D2749F2BC039A300AFA75C /* MeditationAppApp.swift in Sources */,
 			);
@@ -279,6 +283,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,6 +312,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
